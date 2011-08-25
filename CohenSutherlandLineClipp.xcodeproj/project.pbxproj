@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F355779114063AB800E792FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F355779014063AB800E792FC /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F355778A14063AB800E792FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F355778C14063AB800E792FC /* CohenSutherlandLineClipp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CohenSutherlandLineClipp; sourceTree = BUILT_PRODUCTS_DIR; };
+		F355779014063AB800E792FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F355779214063AB800E792FC /* CohenSutherlandLineClipp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CohenSutherlandLineClipp.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F355778914063AB800E792FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F355778114063AB800E792FC = {
+			isa = PBXGroup;
+			children = (
+				F355778F14063AB800E792FC /* CohenSutherlandLineClipp */,
+				F355778D14063AB800E792FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F355778D14063AB800E792FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F355778C14063AB800E792FC /* CohenSutherlandLineClipp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F355778F14063AB800E792FC /* CohenSutherlandLineClipp */ = {
+			isa = PBXGroup;
+			children = (
+				F355779014063AB800E792FC /* main.cpp */,
+				F355779214063AB800E792FC /* CohenSutherlandLineClipp.1 */,
+			);
+			path = CohenSutherlandLineClipp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F355778B14063AB800E792FC /* CohenSutherlandLineClipp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F355779514063AB800E792FC /* Build configuration list for PBXNativeTarget "CohenSutherlandLineClipp" */;
+			buildPhases = (
+				F355778814063AB800E792FC /* Sources */,
+				F355778914063AB800E792FC /* Frameworks */,
+				F355778A14063AB800E792FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CohenSutherlandLineClipp;
+			productName = CohenSutherlandLineClipp;
+			productReference = F355778C14063AB800E792FC /* CohenSutherlandLineClipp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F355778314063AB800E792FC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F355778614063AB800E792FC /* Build configuration list for PBXProject "CohenSutherlandLineClipp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F355778114063AB800E792FC;
+			productRefGroup = F355778D14063AB800E792FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F355778B14063AB800E792FC /* CohenSutherlandLineClipp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F355778814063AB800E792FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F355779114063AB800E792FC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F355779314063AB800E792FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F355779414063AB800E792FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F355779614063AB800E792FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F355779714063AB800E792FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F355778614063AB800E792FC /* Build configuration list for PBXProject "CohenSutherlandLineClipp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F355779314063AB800E792FC /* Debug */,
+				F355779414063AB800E792FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F355779514063AB800E792FC /* Build configuration list for PBXNativeTarget "CohenSutherlandLineClipp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F355779614063AB800E792FC /* Debug */,
+				F355779714063AB800E792FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F355778314063AB800E792FC /* Project object */;
+}
