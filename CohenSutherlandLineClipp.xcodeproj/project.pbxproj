@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F355779114063AB800E792FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F355779014063AB800E792FC /* main.cpp */; };
+		F355779B14063AD400E792FC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F355779A14063AD400E792FC /* OpenGL.framework */; };
+		F355779D14063AE000E792FC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F355779C14063AE000E792FC /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,9 @@
 		F355778C14063AB800E792FC /* CohenSutherlandLineClipp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CohenSutherlandLineClipp; sourceTree = BUILT_PRODUCTS_DIR; };
 		F355779014063AB800E792FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F355779214063AB800E792FC /* CohenSutherlandLineClipp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CohenSutherlandLineClipp.1; sourceTree = "<group>"; };
+		F355779814063ACB00E792FC /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		F355779A14063AD400E792FC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F355779C14063AE000E792FC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F355779D14063AE000E792FC /* GLUT.framework in Frameworks */,
+				F355779B14063AD400E792FC /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,9 @@
 		F355778114063AB800E792FC = {
 			isa = PBXGroup;
 			children = (
+				F355779C14063AE000E792FC /* GLUT.framework */,
+				F355779A14063AD400E792FC /* OpenGL.framework */,
+				F355779814063ACB00E792FC /* OpenCL.framework */,
 				F355778F14063AB800E792FC /* CohenSutherlandLineClipp */,
 				F355778D14063AB800E792FC /* Products */,
 			);
@@ -89,6 +99,9 @@
 /* Begin PBXProject section */
 		F355778314063AB800E792FC /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = F355778614063AB800E792FC /* Build configuration list for PBXProject "CohenSutherlandLineClipp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -191,6 +204,7 @@
 				F355779714063AB800E792FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
